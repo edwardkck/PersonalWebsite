@@ -249,10 +249,9 @@ p + h3 {
                        Components
 =========================================================*/
 /*==================     Author     ======================*/
-img + .author_name {
-  margin-top: 30px;
-}
-.author_name {
+
+#author_name  {
+  font-size: 300%;
   word-spacing: 20px;
   overflow: hidden;
 }
@@ -264,6 +263,7 @@ img + .author_name {
   background: #333333;
 }
 .vide_content {
+  border-radius: 25px;
   position: relative;
 }
 .vide h2 {
@@ -289,6 +289,7 @@ img + .author_name {
     padding-bottom: 80px;
   }
   .vide h2 {
+
     font-size: 26px;
     line-height: 30px;
   }
@@ -317,5 +318,19 @@ header *:not(.btn) {
 }
 .header_panel:after {
   clear: both;
+}
+
+/*==============================================================
+					Navigation section
+================================================================*/
+.nav ul{
+  text-align: center;
+  word-spacing: 30px;
+}
+
+.nav li{
+  font-size: 150%;
+  font-weight: bold;
+  display: inline;
 }
 
