@@ -356,7 +356,11 @@ li.table_subh {
 }
 
 span#from_to {
-    margin-left: 30%
+    margin-left: 20%
+}
+
+li.indent {
+ text-indent: 50px;
 }
 
 
