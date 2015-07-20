@@ -6,7 +6,7 @@
                       Main Styles
 =========================================================*/
 body {
-  background: #10223a;
+  background: #FFFFF;
   color: #808289;
   font: 400 16px/29px "Ubuntu", sans-serif;
   -webkit-text-size-adjust: none;
@@ -323,15 +323,28 @@ header *:not(.btn) {
 /*==============================================================
 					Navigation section
 ================================================================*/
+.nav {
+  text-align:center;
+ }
+
 .nav ul{
-  text-align: center;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
   word-spacing: 30px;
+  list-style-type: none;
 }
 
 .nav li{
+  text-align:center;
   font-size: 200%;
   font-weight: bold;
-  display: inline;
+  float: left;
+}
+
+.nav img{
+  width:275px;
+  height:330px;
 }
 
 /*================================================================
