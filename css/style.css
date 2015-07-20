@@ -329,8 +329,34 @@ header *:not(.btn) {
 }
 
 .nav li{
-  font-size: 150%;
+  font-size: 200%;
   font-weight: bold;
   display: inline;
 }
+
+/*================================================================
+					Table Style
+=================================================================*/
+
+ul#education {
+    text-align:left;
+	list-style-type: none;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+li.tbl_title {
+	font-size: 150%;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+li.table_subh {
+	text-decoration: underline;
+}
+
+span#from_to {
+    margin-left: 30%
+}
+
 
