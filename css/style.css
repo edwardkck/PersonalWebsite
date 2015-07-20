@@ -339,16 +339,19 @@ header *:not(.btn) {
 =================================================================*/
 
 ul#education {
+	position: relative;
+	left:33%;
     text-align:left;
 	list-style-type: none;
-	margin-left:5%;
-	margin-right:5%;
+
 }
 
-li.tbl_title {
+p.tbl_title {
+	text-align:center;
 	font-size: 150%;
 	font-weight: bold;
 	text-decoration: underline;
+	padding-bottom: 10px;
 }
 
 li.table_subh {
